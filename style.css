@@ -70,10 +70,37 @@ a{
     margin-top: 13px;
     padding: 8px 16px;
 }
-img{
+.hearty{
     max-width: 300px;
+    border-style: none;
 }
 /* starting info section here */
-.box1{
-    border-radius: 10px;
+.headingtext{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    padding-bottom: 35px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+img{
+    max-height: 200px;
+    border-radius: 12px;
+    border: #3882F6;
+    border-style: groove;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+}
+.text{
+    text-align: center;
+    font-size: 24px;
+    color: #4d4c4c;
 }
