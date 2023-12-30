@@ -9,6 +9,7 @@
     margin: 0;
     padding: 8px;
     flex-wrap: nowrap;
+    flex-shrink: 0;
 }
 .links{
     display: flex;
@@ -25,33 +26,35 @@
     font-size: 24px;
     font-weight: 600;
     color: #F9FAF8;
-    padding-right: 200px;
 }
 .introduction{
+    display: flex;
     background-color: #1F2937;
     color: #E5E7EB;
-    display: flex;
-    height: 350px;
-    justify-content: space-around;
+    height: auto;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    flex: 1 0 auto;
-    
+    gap: 16px;
+    padding: 32px;
 }
 .bigparagraph{
     font-size: 48px;
     font-weight: bold;  
-    width: 200px;
     padding:0 0 16px 0;
+    flex-shrink: 0;
 }
 .signuptext{
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 300px;
+    flex: 0 0 auto;
 }
 a{
     text-decoration: none;
     color: white;
+    padding: 8px 21px;
+    margin-left: -16px;
 }
 .smallparagraph{
     font-size: 18px;
@@ -60,10 +63,17 @@ a{
 .button{
     background-color: #3882F6;
     border:none;
-    padding: 8px 16px;
     text-align: center;
     display: inline-block;
     border-radius: 12px;
     max-width: 75px;
     margin-top: 13px;
+    padding: 8px 16px;
+}
+img{
+    max-width: 300px;
+}
+/* starting info section here */
+.box1{
+    border-radius: 10px;
 }
