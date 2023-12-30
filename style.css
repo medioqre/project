@@ -25,6 +25,7 @@
     font-size: 24px;
     font-weight: 600;
     color: #F9FAF8;
+    padding-right: 200px;
 }
 .introduction{
     background-color: #1F2937;
@@ -46,7 +47,7 @@
 .signuptext{
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    max-width: 500px;
 }
 a{
     text-decoration: none;
@@ -59,4 +60,10 @@ a{
 .button{
     background-color: #3882F6;
     border:none;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    max-width: 75px;
+    margin-top: 13px;
 }
