@@ -1,0 +1,62 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 8px;
+    flex-wrap: nowrap;
+}
+.links{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    flex: 0 0 auto;
+}
+#logo{
+    height: 50px;
+}
+.headerlogo{
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+.introduction{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    height: 350px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    
+}
+.bigparagraph{
+    font-size: 48px;
+    font-weight: bold;  
+    width: 200px;
+    padding:0 0 16px 0;
+}
+.signuptext{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.smallparagraph{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.button{
+    background-color: #3882F6;
+    border:none;
+}
