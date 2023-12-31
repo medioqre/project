@@ -77,7 +77,8 @@ a{
     font-size: 36px;
     color: #1F2937;
     font-weight: bolder;
-    padding-bottom: 35px;
+    margin-bottom: 35px;
+    
 }
 .boxes{
     display: flex;
@@ -95,6 +96,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 100px 35px;
 }
 .text{
@@ -140,16 +142,17 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 500px;
+    flex: 1 1 500px;
+    padding: 50px;
 }
 .signupg{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 100px;
+    padding: 50px;
     border-radius: 15px;
 }
 .buttoner{
@@ -170,7 +173,6 @@ img{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    min-width: 150px;
 }
 /* last seciton here easy peasy */
 
@@ -181,7 +183,10 @@ img{
     align-items: center;
     padding: 20px;
 }
-
+body {
+    margin: 0;
+    padding: 0;
+}
 
 
 
