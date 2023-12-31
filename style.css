@@ -78,7 +78,7 @@ a{
     color: #1F2937;
     font-weight: bolder;
     margin-bottom: 35px;
-    
+    text-align: center;
 }
 .boxes{
     display: flex;
@@ -88,6 +88,7 @@ a{
 }
 img{
     max-height: 200px;
+    min-width: 200px;
     border-radius: 12px;
     border: #000000;
     border-style: groove;
@@ -129,12 +130,12 @@ img{
 }
 .thing{
     display: flex;
-    flex: 1 1 auto;
 }
 .heartt{
     border-style: none;
-    max-width: 50px;
     padding-top: 10px;
+    min-width: 50px;
+    max-width: 50px;
 }
 
 /* starting the blue thing section */
