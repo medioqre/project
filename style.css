@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    padding: 8px 75px;
+    padding: 16px 125px 0;
     flex-wrap: nowrap;
     flex-shrink: 0;
 }
@@ -26,6 +26,8 @@
     font-size: 24px;
     font-weight: 600;
     color: #F9FAF8;
+    display: flex;
+    flex: 0 0 auto;
 }
 .introduction{
     display: flex;
@@ -36,7 +38,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 200px;
-    padding: 75px;
+    padding: 60px;
 }
 .bigparagraph{
     font-size: 48px;
@@ -132,3 +134,24 @@ img{
     display: flex;
     flex: 1 1 auto;
 }
+.heartt{
+    border-style: none;
+    max-width: 50px;
+    padding-top: 10px;
+}
+
+/* starting the blue thing section */
+.idk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+
+
+
+
+
+
+/* to do - i wanna chance the header and the hearty to move together with eachother */
