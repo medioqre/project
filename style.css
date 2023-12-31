@@ -211,6 +211,9 @@ body {
 .linkbutton:hover {
     background-color: #1E40AF; /* Change color on hover */
 }
-
+.things{
+    font-size: 16px;  
+    font-weight: lighter; 
+}
 
 /* to do - i wanna chance the header and the hearty to move together with eachother */

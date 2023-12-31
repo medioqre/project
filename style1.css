@@ -32,3 +32,9 @@ img {
 .back-button:hover {
     background-color: #1E40AF;
 }
+
+/* happy car section */
+.cartext{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
