@@ -10,6 +10,7 @@
     padding: 16px 125px 0;
     flex-wrap: nowrap;
     flex-shrink: 0;
+    gap: 50px;
 }
 .links{
     display: flex;
@@ -146,6 +147,35 @@ img{
     justify-content: center;
     align-items: center;
     min-height: 500px;
+}
+.signupg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 100px;
+    border-radius: 15px;
+}
+.buttoner{
+    align-self: center;
+}
+.buttontext{
+    border: #F9FAF8;
+    border-style: groove;
+    border-radius: 12px;
+    padding: 10px 20px;
+    
+}
+.signupheading{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.idktext{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 
