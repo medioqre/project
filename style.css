@@ -14,6 +14,16 @@
     color: #E5E7EB;
     flex: 0 0 auto;
 }
+.link{
+    padding: 6px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #E5E7EB;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 2px;
+    text-align: center;
+}
 #logo{
     height: 50px;
 }
@@ -47,11 +57,10 @@
     max-width: 300px;
     flex: 0 0 400px;
 }
-a{
+.linkbutton{
     text-decoration: none;
     color: white;
     padding: 8px 21px;
-    margin-left: -16px;
 }
 .smallparagraph{
     font-size: 18px;
@@ -65,7 +74,6 @@ a{
     border-radius: 12px;
     max-width: 75px;
     margin-top: 13px;
-    padding: 8px 16px;
 }
 .hearty{
     border-style: none;
@@ -161,10 +169,12 @@ img{
 }
 .buttontext{
     border: #F9FAF8;
-    border-style: groove;
+    border-style: solid;
     border-radius: 12px;
     padding: 10px 20px;
-    
+    text-decoration: none;
+    color: #E5E7EB;
+    font-weight: bold;
 }
 .signupheading{
     font-size: 18px;
@@ -188,7 +198,19 @@ body {
     margin: 0;
     padding: 0;
 }
+.linkbutton {
+    display: inline-block;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
 
+.linkbutton:hover {
+    background-color: #1E40AF; /* Change color on hover */
+}
 
 
 /* to do - i wanna chance the header and the hearty to move together with eachother */
